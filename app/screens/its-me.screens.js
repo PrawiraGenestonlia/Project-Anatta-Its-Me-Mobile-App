@@ -52,6 +52,8 @@ export default function ItsMeScreen(props) {
     Beacons.startRangingBeaconsInRegion(region);
     Beacons.startUpdatingLocation();
     subscription();
+    enterRegion();
+    exitRegion();
     return () => {
       Beacons.stopMonitoringForRegion(region);
       Beacons.stopRangingBeaconsInRegion(region);
