@@ -9,7 +9,7 @@ const region = {
   identifier: CONSTANTS.BEACON_IDENTIFIER,
   uuid: CONSTANTS.BEACON_UUID
 };
-
+//
 export default function ItsMeScreen(props) {
   const { navigation } = props;
   const [beaconsInfo, setBeaconsInfo] = useState([]);
