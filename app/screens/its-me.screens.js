@@ -45,6 +45,7 @@ export default function ItsMeScreen(props) {
       }
     );
   }
+  //TODO::try to run in  the background
   useEffect(() => {
     Beacons.requestWhenInUseAuthorization();
     Beacons.requestAlwaysAuthorization();
