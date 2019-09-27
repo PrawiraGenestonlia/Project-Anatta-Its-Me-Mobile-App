@@ -5,6 +5,7 @@ import globalstyles from './globalstylesheet.stylesheet';
 import Beacons from 'react-native-beacons-manager';
 import CONSTANTS from '../constants';
 
+//TODO: test on expoKit
 const region = {
   identifier: CONSTANTS.BEACON_IDENTIFIER,
   uuid: CONSTANTS.BEACON_UUID
